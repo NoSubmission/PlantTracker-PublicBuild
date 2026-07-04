@@ -8,6 +8,7 @@
     "build": "npm run build:plant-knowledge && tsc -b && vite build",
     "build:public": "npm run build:plant-knowledge && tsc -b && vite build --mode public --outDir dist-public",
     "build:plant-knowledge": "node scripts/plant-knowledge-generator.mjs",
+    "plant:ingest": "node scripts/plant-auto-ingest.mjs",
     "test": "vitest",
     "preview": "vite preview"
   },
